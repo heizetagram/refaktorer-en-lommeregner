@@ -1,3 +1,5 @@
+package opg1;
+
 import org.junit.jupiter.api.Assertions;
 
 class CalculatorTest {

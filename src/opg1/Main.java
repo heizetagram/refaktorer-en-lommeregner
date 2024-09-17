@@ -1,3 +1,4 @@
+package opg1;
 
 import java.util.Scanner;
 
