@@ -4,7 +4,7 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Calculator {
-    public static Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args){
         double num1;
@@ -40,8 +40,9 @@ public class Calculator {
     // Prompt for double
     static double inputDouble(String promt) {
         boolean isDouble = false;
-        double num=0;
+        double num = 0;
 
+        // Run while user doesn't input a double
         do {
             try {
                 System.out.print(promt);
@@ -54,7 +55,7 @@ public class Calculator {
         return num;
     }
 
-    // Print introduction info
+    // Print guide info
     static void printInfo() {
         System.out.println("Velkommen til regnemaskinen");
         System.out.println(" + for addition ");
