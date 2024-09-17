@@ -13,8 +13,8 @@ public class Main {
 
         System.out.print(("skriv andet tal: "));
         double b = inputDouble();
-        System.out.println(("vælg operator"));
 
+        System.out.println(("vælg operator"));
         switch (scanner.next()) {
             case "+" -> System.out.println(calculator.add(a, b));
             case "-" -> System.out.println(calculator.subtract(a, b));
